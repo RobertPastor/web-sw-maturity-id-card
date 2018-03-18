@@ -73,6 +73,7 @@ function dropZoneSuccess(uploadedVersionConfFileId, response) {
 
                 var editor = ace.edit("editor");
                 editor.setTheme("ace/theme/chrome");
+                //editor.setTheme("ace/theme/monokai");
                 editor.getSession().setMode("ace/mode/xml");
                 editor.setFontSize(10);
                 editor.setAutoScrollEditorIntoView(true);
