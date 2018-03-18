@@ -1,0 +1,59 @@
+<div class="progressBarSection">
+
+  <table class="tab">
+    <tr>
+
+      <td width="60%">
+        <div>
+          <button name="Main" class="tablinks" onclick="openTab(event, 'Main')" id="defaultOpen">Main</button>
+
+          <button name="klocGit" class="tablinks" onclick="openTab(event, 'KlocGit')">KLOC Git</button>
+          <button name="DOORS" class="tablinks" onclick="openTab(event, 'Doors')">DOORS</button>
+          <button name="ClearQuest" class="tablinks" onclick="openTab(event, 'ClearQuest')">ClearQuest</button>
+
+        </div>
+      </td>
+
+      <td width="40%">
+        <div class="progressBarDiv">
+
+          <table class="progressBarTable">
+
+            <tr>
+
+              <td width="30%">
+                <p id="prepImages" class="prepImages">KLOC Git:</p>
+              </td>
+
+              <td width="70%">
+                <progress id="workerId" class="progressBar" max="100" value="0">
+                  <span id="workerVal">0</span>%</progress>
+              </td>
+
+            </tr>
+
+            <tr>
+
+              <td width="30%">
+                <p id="loadImages" class="loadImages">Chargement des fichiers:</p>
+              </td>
+
+              <td width="70%">
+                <progress id="progressId" class="progressBar" max="100" value="0">
+                  <span id="progressVal">0</span>%</progress>
+              </td>
+
+            </tr>
+
+          </table>
+
+        </div>
+
+      </td>
+
+    </tr>
+
+  </table>
+
+
+</div>

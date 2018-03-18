@@ -1,0 +1,89 @@
+
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-size: 9px;
+    margin:0;
+    padding: 0;
+}
+
+h2 {
+    color: white;
+}
+
+.gold {
+    background-color : gold;
+}
+
+.goldrose  {
+    background-color: goldenrod;
+}
+ 
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.images {
+    width: 150px;
+    height: 150px;
+}
+
+.small {
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    color: black;
+    background-color: gold;
+    font-size: 14px;
+}
+
+.very-small {
+    text-align: left;
+    font-family: Arial;
+    font-style: normal;
+    font-size: 8px;
+}
+
+.container-site {
+    background-color: gold;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* use z-index and show above the nav bar => 
+because it will be hidden at the end of the images loading process */
+.progressBar {
+    width : 100%;
+    z-index: 20 ;
+    vertical-align: top;
+}
+
+.progressBarSection {
+    width: 100%;
+    z-index: 30;
+    vertical-align: top;
+    position: fixed;
+    margin-top: 1px;
+}
+
+.container {
+    z-index: 1;
+	top: 50px;
+	margin-top:1px;
+	position:relative;
+}
+
+#editor { 
+    position: absolute;
+    top: 50px;
+    width: 600px;
+    height: 500px;
+    bottom: 0;
+    left: 400px;
+}

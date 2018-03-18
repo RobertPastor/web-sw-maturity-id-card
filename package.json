@@ -1,0 +1,33 @@
+{
+  "name": "web-sw-maturity-id-card",
+  "version": "1.0.0",
+  "description": "offer web services related to the SW Maturity Id Card",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@rgscmsrv01.airsystems.thales:MAISIE/web-sw-maturity-id-card"
+  },
+  "keywords": [
+    "KLOC",
+    "GIT",
+    "DOORS",
+    "ClearQuest",
+    "Software",
+    "Maturity",
+    "ID",
+    "Card"
+  ],
+  "author": "Robert PASTOR",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "csv-parse": "^2.0.0",
+    "ejs": "^2.5.7",
+    "express": "^4.15.2",
+    "multer": "^1.3.0",
+    "sax": "^1.2.4"
+  }
+}

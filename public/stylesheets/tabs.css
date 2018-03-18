@@ -1,0 +1,65 @@
+/* Style the tab */
+.tab {
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    z-index: 10;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+    z-index: 10;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+    z-index: 10;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    z-index: 10;
+    vertical-align: top;
+    
+}
+
+.tablinks {
+    font-family: Arial;
+    font-size: 14px;
+    z-index: 10;
+}
+
+.prepImages {
+    background-color: wheat;
+}
+
+.loadImages {
+    background-color: wheat;
+}
+
+.progressBarTable {
+    width: 100%;
+}
+
+.progressBarDiv {
+    width: 100%;
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SwMaturityIdCard>
+    <component name="fdp">
+			<git project="COOPANS">
+        <repo value="ssh://git@rgscmsrv01.airsystems.thales/env/unified COOPANS_B3_4_101_1" />
+        <repo value="ssh://git@rgscmsrv01.airsystems.thales/env/common COOPANS_B3_4_101_1" />
+        <repo value="ssh://git@rgscmsrv01.airsystems.thales/env/dpr_common COOPANS_B3_4_101_1" />
+        <repo value="ssh://git@rgscmsrv01.airsystems.thales/env/envio COOPANS_B3_4_101_1" />
+        <repo value="ssh://git@tlsacmsrv05.tlse.tatm.thales/fdp/dad COOPANS_B3_4_101_1" />
+        <repo value="ssh://git@tlsacmsrv05.tlse.tatm.thales/fdp/pro COOPANS_B3_4_101_1" />
+        <repo value="ssh://git@tlsacmsrv05.tlse.tatm.thales/fdp/fpl COOPANS_B3_4_101_1" />
+        <repo value="ssh://git@tlsacmsrv05.tlse.tatm.thales/fdp/fds COOPANS_B3_4_101_1" />
+        <repo value="ssh://git@rgscmsrv01.airsystems.tatm.thales/fdp/fdp COOPANS_B3_4_201_1" />
+			</git>
+		<Doors>
+			<project name="COOPANS B3.2" />
+			<doorsComponent name="FDP" />
+      <baseline name="SRS_FDP_COOPANS B3.2_RevH" />
+			<inworking value="False" />
+			<deleted value="False" />
+		</Doors>
+		<ClearQuest>
+			<base name="COOPANS" />
+			<assigned name="FDP" />
+      <detectedRelease name="COOPANS_B3_2" />
+		</ClearQuest>
+    </component>
+</SwMaturityIdCard>
