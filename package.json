@@ -1,6 +1,6 @@
 {
   "name": "web-sw-maturity-id-card",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "offer web services related to the SW Maturity Id Card",
   "main": "index.js",
   "scripts": {
